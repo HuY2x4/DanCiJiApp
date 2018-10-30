@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ParticleView">
+        <attr name="pv_host_text" format="string"></attr>
+        <attr name="pv_host_text_size" format="dimension"></attr>
+        <attr name="pv_particle_text" format="string"></attr>
+        <attr name="pv_particle_text_size" format="dimension"></attr>
+        <attr name="pv_text_color" format="color"></attr>
+        <attr name="pv_background_color" format="color"></attr>
+        <attr name="pv_text_anim_time" format="integer"></attr>
+        <attr name="pv_spread_anim_time" format="integer"></attr>
+        <attr name="pv_host_text_anim_time" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="RaiflatButton">
+        <attr name="flatten" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SubmitButton">
+        <attr name="sub_btn_background" format="color" />
+        <attr name="sub_btn_tick_color" format="color" />
+        <attr name="sub_btn_line_color" format="color" />
+        <attr name="sub_btn_ripple_color" format="color" />
+        <attr name="sub_btn_duration" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SectorMenuButton">
+        <attr name="aebMainButtonSizeDp" format="dimension|reference" />
+        <attr name="aebSubButtonSizeDp" format="dimension|reference" />
+        <attr name="aebButtonGapDp" format="dimension|reference" />
+        <attr name="aebStartAngleDegree" format="integer|reference" />
+        <attr name="aebEndAngleDegree" format="integer|reference" />
+        <attr name="aebAnimDurationMillis" format="integer|reference" />
+        <attr name="aebButtonElevation" format="dimension|reference" />
+        <attr name="aebMaskBackgroundColor" format="color|reference" />
+        <attr name="aebIsSelectionMode" format="boolean" />
+        <attr name="aebMainButtonTextColor" format="color|reference" />
+        <attr name="aebSubButtonTextColor" format="color|reference" />
+        <attr name="aebMainButtonTextSizeSp" format="dimension|reference" />
+        <attr name="aebSubButtonTextSizeSp" format="dimension|reference" />
+        <attr name="aebRippleEffect" format="boolean" />
+        <attr name="aebRippleColor" format="color|reference"/>
+        <attr name="aebMainButtonRotateDegree" format="integer|reference"/>
+        <attr name="aebMainButtonRotateAnimDurationMillis" format="integer|reference"/>
+        <attr name="aebBlurBackground" format="boolean" />
+        <attr name="aebBlurRadius" format="float|reference"/>
+    </declare-styleable>
+
+</resources>

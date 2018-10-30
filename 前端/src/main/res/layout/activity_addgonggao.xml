@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gonggao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.danciji1_0.Gonggao"
+    android:background="#f8f8ff">
+    <Button
+        android:id="@+id/AGG_fanhui"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/AGG_tijiao"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/ic_check_black_24dp" />
+    <LinearLayout
+        android:elevation="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/AGG_biaoti"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="公告栏"
+            android:textSize="20dp"/>
+        <EditText
+            android:gravity="center"
+            android:elevation="30dp"
+            android:id="@+id/AGG_Gonggao"
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            android:background="#efefec" />
+
+    </LinearLayout>
+</RelativeLayout>

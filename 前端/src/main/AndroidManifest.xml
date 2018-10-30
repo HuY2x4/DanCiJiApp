@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.danciji1_0">
+
+
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />         //设置权限
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />        //设置权限
+
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tubiao"
+        android:label="单词记"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PaiHB" />
+        <activity android:name=".Chenji" />
+        <activity android:name=".Denglu" />
+        <activity android:name=".Miandengluxuanci" />
+        <activity android:name=".Zhuce" />
+        <activity android:name=".Zhuye" />
+        <activity android:name=".Kuaisujiyi_ku" />
+        <activity android:name=".Kancixuanyi_ku" />
+        <activity android:name=".Kanyixuanci_ku" />
+        <activity android:name=".Kancixuanyi" />
+        <activity android:name=".Kanyixuanci" />
+        <activity android:name=".Kuaisujiyi" />
+        <activity android:name=".Gerenzhongxin" />
+        <activity android:name=".Gaimima" />
+        <activity android:name=".Gonggao" />
+        <activity android:name=".Bangzhu" />
+        <activity android:name=".Shezhi" />
+        <activity android:name=".AddDC" />
+        <activity android:name=".DelDC" />
+        <activity android:name=".FaGG" />
+        <activity android:name=".Guanliyuan" />
+        <activity android:name=".InFKinf" />
+        <activity android:name=".updDC" />
+        <activity android:name=".Yonghufankui"></activity>
+    </application>
+
+</manifest>

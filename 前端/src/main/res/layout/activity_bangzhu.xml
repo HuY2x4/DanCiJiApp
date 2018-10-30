@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bangzhu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#f8f8ff"
+    tools:context="com.example.danciji1_0.Bangzhu">
+    <Button
+        android:id="@+id/BZ_fanhui"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/BZ_biaoti"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="APP相关信息"
+            android:textSize="30dp"/>
+        <LinearLayout
+            android:elevation="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#efefec"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:elevation="50dp"
+                android:gravity="center"
+                android:id="@+id/BZ_inf"
+                android:layout_width="300dp"
+                android:layout_height="350dp"
+                android:text="开发人员\n 黄叶轩\n 陈俊仁\n 陈侃\n\n版本：1.0"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
